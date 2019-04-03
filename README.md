@@ -39,23 +39,27 @@ machine learning engine, and use to analyze your rash (or bunny picture, or
 desert rocks image) and diagnose the cause.
 
 Using: Python3, Flask, and Jinja (Karen)
+
 Flask is really convenient to use! Our entire project is done in Python, 
 using Flask to serve our web app and a Jinja template to render it. I had never
 used Flask or Jinja before, although Python is nothing new. I also used 
 json objects and files to store and share data.
 
 Using: Jinja, HTML, and CSS with Bootstrap (Sydney)
+
 Sydney, our resident Bootstrap expert, did our CSS styling to make our web app 
 pretty (as pretty as you can get when you're looking at pictures of people's rashes)
 and more consistent across platforms.
 
 No Longer Using: Webapp2 and Google's dev_appserver.py (Karen)
+
 As I learned (after a couple hours of troubleshooting and stumping Google's engineers)
 dev_appserver.py only supports Python 2 usage, while Google's other APIs require
 Python 3. Due to this discrepancy, we converted entirely to using Flask to serve 
 our web app. 
 
 No Longer Using: Google Cloud Shell (Karen)
+
 We also developed partially on Google's Cloud Shell, but our main issue arose with the
 drastic latency caused by sending single keystrokes over the hackathon's spotty wifi.
 
@@ -72,6 +76,7 @@ making a second machine learning analysis request did not warrant the extra func
 especially when contending with the inconsistent wifi provided at the hackathon.
 
 Future Functionality:
+
 We would love to implement some more features for our app, including:
 - Similar detection for other skin ailments (moles, sunburn, bruises, acne, etc)
 - An automatic web search for appropriate doctors in your area
