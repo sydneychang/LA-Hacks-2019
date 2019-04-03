@@ -32,6 +32,7 @@ publicly hosted site coming soon!
 Methodology and Dev Process:
 
 Using: Google AutoML API (Ed and Sydney)
+
 This demonstration uses a relatively small training dataset of 200+ images
 (because honestly, we could only process so many pictures of nasty rashes
 in the span of 36 hours), which we input into Google's AutoML 
