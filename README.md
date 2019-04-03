@@ -1,5 +1,6 @@
 # LA-Hacks-2019
-medical diagnostic tool
+
+Medical diagnostic tool created by Karen Cavicchio, Ed Yeow, and Sydney Chang.
 
 README.txt
 
