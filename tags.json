@@ -1,0 +1,46 @@
+{
+    "conditions":[
+    {
+        "tag":"normal_skin",
+        "name":"Normal skin",
+        "cause":"Washing your hands and using lotion",
+        "cure":"You're doing great!",
+        "doctor":"Save money! No doctor!"
+    },
+    {
+        "tag":"eczema",
+        "name":"Eczema, aka atopic dermatitis",
+        "cause":"The continued stress of existing",
+        "cure":"Take a nap. Or take some steroids.",
+        "doctor":"Buy this steroid cream. Give me some money."
+    },
+    {
+        "tag":"atopic_dermatitis",
+        "name":"Atopic dermatitis, aka eczema",
+        "cause":"The continued stress of existing",
+        "cure":"Take a nap. Or take some steroids.",
+        "doctor":"Buy this steroid cream. Give me some money."
+    },
+    {
+        "tag":"contact_dermatitis",
+        "name":"Contact Dermatitis",
+        "cause":"Touching something you're allergic to",
+        "cure":"Stop! Don't touch that!",
+        "doctor":"Go get a patch test. Give me some money."
+    },
+    {
+        "tag":"drug_rash",
+        "name":"Drug Rash",
+        "cause":"Taking drugs you're allergic to",
+        "cure":"Just die I guess, since you can't take your medicine",
+        "doctor":"Here! Take some more medicine! Pay me some money."
+    },
+    {
+        "tag":"rash",
+        "name":"Rash",
+        "cause":"You did a dumb",
+        "cure":"Try lotion I guess?",
+        "doctor":"Come in for an examination. Give me some money."
+    }
+]
+}

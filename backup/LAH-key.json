@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "bionic-water-236108",
+  "private_key_id": "56976f1387617dd2122aa863bed0d89180b052ef",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCy1Ci3kO2jV5EB\nrx3l5lS3L9s66YSB4TgPxK/zYHdYSwssZ2dUIKGP7GBCq10VG87T/n0CxkYpjDr7\nlQJxvo5nLg9AK3aX9fuU2fXP4oaPKftfM/wRai8Rx9egCcA4yxFVLhG/Fk+sytbH\ngqMM7UGjYV45adnzGYinTDRkMTjq1mqYTZd3/t6IEcL+m4EUcjNXLJZIZ7g5osB1\n1pUZlDwKDHwfEiNjJqfzTjtqP9zOrvEICQa1h7MkmuO4Zk6bGVwzlLm312U6v04D\nfoeQiAFWhax1wnGQwBNDHgdGUUZ82GHBHW0JybXcVgIq9heK3KnaJvrzYelpaut1\nKtT1i5udAgMBAAECggEAKB8lDoBX7MKgAEx5jQPXJG16hpZvWhN9eD41CsntJNRb\naqg9fNjAXtHWDAc2AF8nkZUil42EHty9PAZD0ODDwt8I4WkO98ui2RPozG4iqfqt\nkP/REVgtPNRFKr0dUTCwUBfgt+pp0FcHBqam7ebKR/13vjJjSaFEMWLNy1/myPsX\ncLrxgruR+TtsRyCx3FyJ2KZGPDpAWHb0zZW8k0oJlBmwfXDarStnCYJXB48hszvr\nZGSUQMJBz1kVmYi5uTkxfrfAar/O97T5t3zPJ8qBRoMqD0XzrOupka2S31c+Ib/i\nZOQIL8ut0NjPyvaTMaFDAJG56JUpiNktA/gSi7W+CQKBgQDqa6HJn/Yqh+eSKzYv\ncRAVNZ9c07UkQIyQlzbiI00gUfwzqBQRhdDl1G8EvIDmhEGA5Cqv8eL94Wyu108T\nGh3+qxMTXzLodLSSB0RTFoTmEA+2S3ZKfBTq4h+rNJUwmRdWz4Pdl5kyAGf8xNjx\n/PPjPgwNornH+1mBRbDxGxaVRQKBgQDDSnMRVA+RZ69rlL+zlIQ1T1W6+z3yr9S7\nWDj7nrs4q5jsc8huJg6wdG3sMaHY36ao7qHJdFwrlj0+7WuiWUP9VB0nZbxU6XS3\nxcaG562g3+V84DqCC1OI++R9t3NPW4rkvYJDgjoY/itxZ5ZcQkztdKLKWW9OEOVz\ng9U77sC2eQKBgQCO1HOoQOGhOls7MT77mvz8n0ZxLcERzI6YzrmvAWlNxwZOhxtr\nLciBMHVQQnabfXvXx63GtC/lFoO86A0TC3e5Io0l4XxILEuVKf5UTcU91A1uuf3i\nFkY8cvhuvUQlbzHMP/YNfv/lel/hoCK7Fq+XBsgbSsm9coUvgcH0tdeFrQKBgQC0\nQSSiiu9vq79r0jl7fQrm1dpwovQT7B2z6oN2JJX0gda98US//pqyXlUTnOAheJWw\n+coVUzS7+ol/as9dY31w91GNisbhrTZRZdiPropBokeFEsaOP/wTxUSqkUh6qCk0\nZoM04p/Tb88TdqR/dabhyjV0BkbJTKktDTMlhYMVKQKBgQC7wNsVEMyHAu5+8SxD\n9BK6kb2W5+IwXdIhxQMbKrw7w6sSotrdJQIh+9O++yD9034mDkFzRnk+WGa/6zxg\nLi2rsvCZVPC8dKTfGJhEOXaCOK7pFo0Et+H2sODzn9ZDATfrdbv7hNF09vWv1HrT\nV0W0M70rshkZBXMXcXXOj6bPJA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "syd2chang@bionic-water-236108.iam.gserviceaccount.com",
+  "client_id": "111284199684549928092",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/syd2chang%40bionic-water-236108.iam.gserviceaccount.com"
+}

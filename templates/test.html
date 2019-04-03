@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Itchy Armpit</title>
+    <link rel="stylesheet" type="text/css"
+          href="../static/css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" 
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" 
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+            crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+</head>
+
+<body>
+    <!-- Image and text -->
+    <nav class="navbar navbar-dark bg-dark">
+        <div class="navbar-brand text-light">
+            <img src="static/panda_brand.jpg" width="40" height="40">
+            Team ESKimo
+        </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4 mb-4">MedImage</h1>
+            <p>Upload your image to obtain a medical diagnosis for your dermatological condition! Your image will be processed by Google Cloud's AutoML Vision API and return the most likely diagnosis. </p>
+            <form method=post enctype=multipart/form-data>
+                <input type=file name=file>
+                <input type=submit value=Upload>
+            </form>
+        </div>
+    </div>
+
+    
+    <div class="container d-flex justify-content-around mb-5">
+            {% if currimg %}
+            <img src="{{ currimg }}" alt="where's my file? >:/" id="currimg" class="card-img-top" height="300" style="width: auto">
+            {% endif %}
+       
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                {% if info %}
+                <div class="card-body">
+                    <p class="card-text">
+                        <div id="diagnosis"></div>
+                        <h2>Top Diagnosis: </h2>
+                        <h3><b>{{ info.name }}</b></h3>
+                        <p></p>
+                        <ul class="list-group">
+                            <li class="list-group-item">Cause: {{ info.cause }}</li>
+                            <li class="list-group-item">Treatment: {{ info.cure }}</li>
+                            <li class="list-group-item">Doctor says: {{ info.doctor }}</li>
+                            <p></p>
+                            <p></p>
+                       </ul>
+                       <!--- 
+                        <h2>  </h2>
+                        <h3> {{ info.name }}</h3>
+                    <p> Cause: {{ info.cause }}</p>
+                    <p> Cure: {{ info.cure }}</p>
+                    <p> Doctor says: "{{ info.doctor }}"</p>
+                </div> -->
+                {% endif %}
+                <h5 class="card-title">All Matches</h5>
+                <p class="card-text">
+                    <ol>
+                        {% for label in labels %}
+                        <li class="label">
+                            <div>{{ getdata(label.display_name).name }}</div>
+                            <div> confidence score: {{ '%.2f'%(label['classification'].score) }}</div>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!doctype html>
+<head>
+    <title>Itchy Armpit</title>
+    <!--<link rel="stylesheet" href="static/css/style.css">-->
+    <style>
+        img { height:300px; width:auto; }
+    </style>
+</head>
+
+<body>
+<h1>I'm Not Fat I'm Fluffy</h1>
+
+<img src="{{ currimg }}" alt="where's my file? >:/" height>
+
+<h2> Labels: </h2>
+{% for label in labels %}
+    <div class="label">{{ label.description }}</div>
+{% endfor %}
+<!--<form method="POST">
+    <input name="text">
+    <input type="submit">
+</form>
+{% if input %}
+    <h2>Gotcha! {{ input }}</h2>
+{% endif %}-->
+
+<form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+</form>
+</body>
